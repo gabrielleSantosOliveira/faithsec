@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Suporte</title>
+    <style>
+        main {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: #FFFFFF;
+        }
+
+        hr {
+            display: block;
+            border: none;
+            border-top: 1px solid #000000;
+            margin: 20px 0;
+            padding: 0;
+        }
+
+        .suportetecnico {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .suportetecnico:hover {
+            text-decoration: none;
+            color: #56A3A6;
+        }
+
+        div {
+            width: 60%;
+            margin: auto;
+        }
+
+        input {
+            width: 48%;
+            border-radius: 0%;
+            outline: none;
+            border-bottom: 2px solid #000000;
+            font-size: 1.1em;
+        }
+
+        input:hover {
+            border-bottom: 2px solid #56A3A6;
+        }
+
+        .Estados {
+            width: 97%;
+            border-radius: 0%;
+            outline: none;
+            font-size: 1.1em;
+            border-bottom: 2px solid #000000;
+        }
+
+        .Estados:hover {
+            border-bottom: 2px solid #56A3A6;
+        }
+
+        .Mensagem {
+            width: 97%;
+            height: 200px;
+            font-size: 1.1em;
+        }
+
+        .Enviar {
+            background-color: #56A3A6;
+            width: 20%;
+            height: 40px;
+            border-bottom: 0;
+            margin: auto 584px auto 0;
+        }
+
+        .Enviar:hover {
+            border-bottom: none;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        h2 {
+            font-size: 1.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="faithsec">FaithSec</h1>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li class="listaMenu">Início</li>
+                </a>
+                <a href="orcamento.html" rel="prev">
+                    <li class="listaMenu">Orçamento</li>
+                </a>
+                <a href="#" rel="next">
+                    <li class="listaMenu">Suporte</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <br />
+
+        <h1>Suporte ao Cliente</h1>
+
+        <br />
+
+        <p>Bem-vindo à seção de suporte técnico do nosso site.</p>
+        <p>Para te dar uma ajuda pessoal aperte aqui:</p>
+
+        <p><strong><a class="suportetecnico" rel="#" href="#">Suporte técnico</a></strong></p>
+
+        <br />
+
+        <hr />
+
+        <br />
+
+        <h2>Entre em contato</h2>
+        <br />
+
+        <p>Estamos aqui para sanar dúvidas, ajudar e discutir a melhor forma de adquirir e utilizar o sistema.</p>
+
+        <br />
+
+        <div>
+            <form>
+                <input class="Nome" type="text" name="nameNome" id="idNome" placeholder="Nome:" />
+                <input class="Empresa" type="text" name="nameEmpresa" id="idEmpresa" placeholder="Empresa:" />
+                <br /><br />
+                <input class="Email" type="email" name="nameEmail" id="idEmail" placeholder="Email:" />
+                <input class="Telefone" type="tel" name="nameTelefone" id="idTelefone" placeholder="Telefone:" />
+                <br /><br />
+                <select class="Estados" name="nameEstados" id="idEstados">
+                    <option value="Estado">Selecione seu Estado</option>
+                    <option value="Acre">Acre</option>
+                    <option value="Alagoas">Alagoas</option>
+                    <option value="Amapá">Amapá</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Ceará">Ceará</option>
+                    <option value="Distrito Federal">Distrito Federal</option>
+                    <option value="Espírito Santo">Espírito Santo</option>
+                    <option value="Goiás">Goiás</option>
+                    <option value="Maranhão">Maranhão</option>
+                    <option value="Mato Grosso">Mato Grosso</option>
+                    <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Pará">Pará</option>
+                    <option value="Paraíba">Paraíba</option>
+                    <option value="Paraná">Paraná</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Piauí">Piauí</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Rondônia">Rondônia</option>
+                    <option value="Roraima">Roraima</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Sergipe">Sergipe</option>
+                    <option value="Tocantins">Tocantins</option>
+                </select>
+                <br /><br />
+                <input class="Mensagem" type="text" name="nameMensagem" id="idMensagem"
+                    placeholder="Escreva sua Mensagem:" />
+
+                <br /><br />
+
+                <input class="Enviar" type="submit" value="Enviar">
+        </div>
+
+        </form>
+    </main>
+
+    </main>
+
+    <footer>
+        <div class="content_imgs">
+            <div class="line"></div>
+            <img class="imgs_logo" src="./imagens/gmailLogo.png" alt="gmail logo" />
+            <img class="imgs_logo" src="./imagens/instaLogo.png" alt="insta logo" />
+            <img class="imgs_logo" src="./imagens/zupizupi.png" alt="zap logo" />
+            <div class="line"></div>
+        </div>
+        <p>© 2021 FaithSec. Todos os direitos reservados.</p>
+        <!-- <div>
+          <a href="contato.html"><li>Contato</li></a>
+          <a href="suporte.html"><li>Suporte</li></a>
+          <a href="politica-de-privacidade.html">
+            <li>Política de Privacidade</li>
+          </a>
+        </div> -->
+    </footer>
+
+</body>
+
+</html>
