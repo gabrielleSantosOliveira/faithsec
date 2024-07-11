@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Monitoramento Hospitalar</title>
+    <style>
+        /* Reset CSS */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-color: #6ea08c;
+            color: #555;
+        }
+
+        /* Ocultar scrollbar no Chrome */
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Estilos para os cartões */
+        .card_item {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 300px;
+            margin: 40px 0;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            box-shadow: 0 0 10px #0000001a;
+        }
+
+        .card_content_img,
+        .card_content_text {
+            width: 50%;
+            height: 100%;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        .card_content_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        /* Estilos para imagens */
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Estilos para containers */
+        .container {
+            margin: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #0000001a;
+        }
+
+        .container_text {
+            margin: 10px 0;
+        }
+
+        .container_content_text {
+            margin: 10px 0;
+        }
+
+        /* Estilos para títulos */
+        h2 {
+            margin: 0 0 10px;
+            color: #555;
+        }
+
+        h3 {
+            margin: 0 0 8px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 style="color: #FFFFFF;">FaithSec</h1>
+
+        <nav>
+            <a class="nav" href="index.html">Início</a>
+            <a class="nav" href="orcamento.html" rel="prev">Orçamento</a>
+            <a class="nav" href="suporte.html">Suporte</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Sistema de Monitoramento Hospitalar</h2>
+
+            <div>
+                <p>Um sistema avançado de monitoramento hospitalar utiliza tecnologia de ponta para melhorar a eficiência e a qualidade dos cuidados de saúde prestados aos pacientes...</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Funcionamento do Sistema de Monitoramento:</h2>
+            
+            <!-- Card 1 -->
+            <div class="card_item">
+                <div class="card_content_img">
+                    <img src="botao.png" alt="botão de emergência">
+                </div>
+                <div class="card_content_text">
+                    <h3>Sensores Inteligentes:</h3>
+                    <p>Sensores avançados monitoram continuamente os sinais vitais dos pacientes, como temperatura, batimentos cardíacos e mais...</p>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="card_item">
+                <div class="card_content_text">
+                    <h3>Análise em Tempo Real:</h3>
+                    <p>Dados coletados pelos sensores são analisados em tempo real por sistemas de inteligência artificial, permitindo uma resposta rápida e precisa às condições dos pacientes...</p>
+                </div>
+                <div class="card_content_img">
+                    <img src="botao.png" alt="botão de emergência">
+                </div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="card_item">
+                <div class="card_content_img">
+                    <img src="botao.png" alt="botão de emergência">
+                </div>
+                <div class="card_content_text">
+                    <h3>Comunicação Automatizada:</h3>
+                    <p>O sistema de monitoramento automatizado comunica alertas e informações críticas diretamente para a equipe médica, garantindo uma intervenção rápida e eficaz...</p>
+                </div>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="card_item">
+                <div class="card_content_text">
+                    <h3>Integração com Registros Médicos:</h3>
+                    <p>Todos os dados monitorados são integrados aos registros médicos eletrônicos, proporcionando um histórico detalhado e facilitando o acompanhamento contínuo do estado de saúde dos pacientes...</p>
+                </div>
+                <div class="card_content_img">
+                    <img src="botao.png" alt="botão de emergência">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Tecnologia Avançada de Monitoramento:</h2>
+            
+            <div class="container_text_description">
+                <p>A tecnologia avançada utilizada no sistema de monitoramento hospitalar não só melhora a eficiência operacional, mas também eleva o padrão de cuidado oferecido aos pacientes...</p>
+            </div>
+
+            <div class="container_text">
+                <h3>Benefícios do Sistema de Monitoramento:</h3>
+                
+                <div class="container_content_text">
+                    <p><strong>Melhoria na Qualidade dos Cuidados:</strong> Monitoramento contínuo e intervenção precoce.</p>
+                </div>
+                <div class="container_content_text">
+                    <p><strong>Redução de Erros Médicos:</strong> Análise precisa e comunicação eficaz.</p>
+                </div>
+                <div class="container_content_text">
+                    <p><strong>Segurança do Paciente:</strong> Resposta rápida a situações de emergência.</p>
+                </div>
+                <div class="container_content_text">
+                    <p><strong>Eficiência Operacional:</strong> Integração de dados e otimização de recursos.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        
+        <h2>Meios de contato: 99999-9999 &copy;</h1> 
+        <br />
+        <a href="https://www.instagram.com/" target="_blank"><img src="imagens/instaLogo.png" alt="Logo do instagram" /></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><img src="imagens/logoWhats.png" alt="logo do whatsapp"></a>
+        <a href="https://pt-br.facebook.com/login/device-based/regular/login/" target="_blank"><img src="imagens/logoFace.png" alt="Logo do facebook"></a>
+
+    </footer>
+
+</body>
+
+</html>
